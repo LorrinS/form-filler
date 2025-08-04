@@ -1,0 +1,46 @@
+
+# Text field mappings
+FIELD_MAPPING = {
+    # Property Info
+    "1_1_6": "property_address",
+    "=0_2_2": "property_address",
+    "=0_1_40": "legal_description",
+    "1_1_278": "source",
+    "1_1_47": "municipality",
+    "1_1_563": "property_id",
+
+    # Assessment Info
+    "1_1_50": "assessment_value",
+    "1_1_51": "assessment_date",
+    "1_1_52": "property_taxes",
+    "1_1_53": "tax_year",
+
+    # Site & Zoning
+    "=0_2_117": "site_dimensions",
+    "=0_2_17": "lot_size",
+    "1_1_328": "lot_size_units",
+    "=0_2_231": "zoning",
+    "=0_2_225": "year_built",
+
+    # MLS Data
+    "=0_2_61": "mls_source",
+    "=0_2_43": "date_of_sale",
+    "=0_2_44": "sale_price",
+    "=0_2_62": "days_on_market",
+    "=0_2_18": "property_type",
+    "=0_2_19": "design",
+    "=0_2_16": "living_floor_area",
+    "=0_2_114": "room_counts",
+    "=0_2_115": "bedrooms",
+    "=0_2_116": "number_of_bathrooms",
+    "=0_2_20": "basement_info",
+}
+
+# Image field mapping
+IMAGE_FIELD_MAP = {
+    "65_1_13": "comparable_photo_1",
+    "65_1_17": "comparable_photo_2", 
+    "65_1_21": "comparable_photo_3",
+    "61_1_10": "location_map",
+    "57_1_10": "plot_map",
+}
